@@ -1,0 +1,24 @@
+{
+    "name": "GPIOlib-for-ESP32Arduino",
+    "version": "0.0.1",
+    "description": "Library for usin GPIO-pins of ESP32 on Arduino",
+    "keywords": ["ESP32", "GPIO", "Arduino"],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/Tokoroten2003/GPIOlib-for-ESP32Arduino.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Tokoroten2003",
+            "email": "chikurin1014@gmail.com",
+            "url": "https://github.com/Tokoroten2003",
+            "maintainer": true
+        }
+    ],
+    "Licence": "MIT",
+    "homepage": "https://github.com/Tokoroten2003/GPIOlib-for-ESP32Arduino",
+    "platforms": "espressif32",
+    "frameworks": "arduino"
+}
