@@ -131,6 +131,8 @@ void loop() {
 ```
 
 ### `setupPins()`
+**This function is not allowed before c++17**
+
 You can use `setupPins()` to setup multiple pins at the same time.
 ```cpp
 gpio::AnalogIn pin0(0);
