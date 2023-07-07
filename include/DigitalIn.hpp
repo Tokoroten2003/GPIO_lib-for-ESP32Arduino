@@ -2,8 +2,10 @@
 
 #include <Arduino.h>
 
+#include "GeneralPin.hpp"
+
 namespace gpio {
-class DigitalIn {
+class DigitalIn : public GeneralPin {
 public:
     const uint8_t pin;
 

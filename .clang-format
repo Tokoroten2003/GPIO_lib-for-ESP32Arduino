@@ -16,7 +16,7 @@ BreakConstructorInitializers: AfterColon
 BreakInheritanceList: AfterComma
 ColumnLimit: 120
 EmptyLineBeforeAccessModifier: Always
-IncludeBlocks: Regroup
+IncludeBlocks: Preserve
 IndentWidth: 4
 Language: Cpp
 PointerAlignment: Left

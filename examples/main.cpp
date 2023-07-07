@@ -1,6 +1,7 @@
 #ifndef UNIT_TEST
 
 #include "AnalogIn.hpp"
+#include "GeneralPin.hpp"
 
 #include <Arduino.h>
 
@@ -8,7 +9,7 @@ gpio::AnalogIn analog_in(13);
 
 void setup() {
     Serial.begin(9600);
-    analog_in.setup();
+    setupPins(analog_in);
 }
 
 void loop() {

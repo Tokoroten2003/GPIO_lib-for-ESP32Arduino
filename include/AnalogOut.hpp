@@ -2,8 +2,10 @@
 
 #include <Arduino.h>
 
+#include "GeneralPin.hpp"
+
 namespace gpio {
-class AnalogOut {
+class AnalogOut : public GeneralPin {
 public:
     const uint8_t pin;
     const uint8_t ch;
