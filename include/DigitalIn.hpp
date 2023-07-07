@@ -14,6 +14,6 @@ public:
     DigitalIn& operator=(const DigitalIn&) = delete;
 
     void setup();
-    bool read();
+    uint8_t read();
 };
 } // namespace gpio
