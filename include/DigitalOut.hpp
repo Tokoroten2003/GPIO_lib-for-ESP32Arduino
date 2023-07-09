@@ -14,6 +14,6 @@ public:
     DigitalOut& operator=(const DigitalOut&) = delete;
 
     void setup();
-    void write(bool value);
+    void write(uint8_t value);
 };
 } // namespace gpio
